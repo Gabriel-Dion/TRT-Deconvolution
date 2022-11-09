@@ -2,7 +2,9 @@
 
 ## Description
 
-This MATLAB-based alrogithm perform a deconvolution of thermal response test (TRT) data to recover a short-term transfer function. The algorithm works on all kind of ground heat exchanger (GHE) and with most heating power profile used during the TRT. The short-term transfer function can then be combined to long-term transfer function to validate the GHE response to various heat load profile from a building.
+This MATLAB-based algorithm performs a deconvolution of thermal response test (TRT) data to recover a short-term transfer function. The algorithm works on all kinds of ground heat exchanger (GHE) and with most heating power profile used during the TRT. The short-term transfer function can then be combined to long-term transfer function to validate the GHE response to various heat load profile from a building.
+
+This algorithm is better described in the reference for this work.
 
 ## Reference for this work
 
