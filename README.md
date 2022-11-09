@@ -19,5 +19,4 @@ Dion, G., Pasquier, P., & Marcotte, D. (2022). Deconvolution of experimental the
 	year = {2022},
 	keywords = {Ground heat exchanger, Short-term -function, Temperature response deconvolution, Thermal Response Test},
 	pages = {102302},
-	file = {Dion et al. - 2022 - Deconvolution of experimental thermal response tes.pdf:C\:\\Users\\Gabriel\\OneDrive - polymtl.ca\\Zotero\\storage\\SWKUUT63\\Dion et al. - 2022 - Deconvolution of experimental thermal response tes.pdf:application/pdf},
 }
