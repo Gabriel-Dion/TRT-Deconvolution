@@ -291,14 +291,14 @@ B1 = zeros(nId-1,1);                % Vector to constrain the first derivative
 % 2 - Second constraint: negative second derivative on last section
 [~,IdNodes] = min(abs(300-Id));     % Find at around 3h of TRT
 
-A2 = zeros(nId-1-IdNodes,nId);      % Preallocation
-for kk = 1:nId-1-IdNodes            % Fill the matrix A2 with second derivative
+A2 = zeros(nId-2-IdNodes,nId);      % Preallocation
+for kk = 1:nId-2-IdNodes            % Fill the matrix A2 with second derivative
     c = (Id(IdNodes+kk+1)-Id(IdNodes+kk))/...
         (Id(IdNodes+kk)-Id(IdNodes+kk-1));
     A2(kk,IdNodes+kk-1:IdNodes+kk+1) = [c,-(1+c),1];
 end
 
-B2 = zeros(nId-1-IdNodes,1);        % [Mx1] vector with M=N-2
+B2 = zeros(nId-2-IdNodes,1);        % [Mx1] vector with M=N-2
 
 % 3 - Joining the first and second derivative constraint.
 A = sparse([A1;A2]);
